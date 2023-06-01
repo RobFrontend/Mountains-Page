@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Karkonosze website is a fan site created for the purpose of training frontend"
+    />
+    <link rel="icon" href="img/logo.png" />
+    <link rel="apple-touch-icon" href="img/logo-apple-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+    <title>Karkonosze &mdash; wonderful place to explore</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img src="img/logo.png" alt="logo of page" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#hero">GENERAL</a></li>
+          <li><a class="main-nav-link" href="#legends">LEGENDS</a></li>
+          <li><a class="main-nav-link" href="#trivia">TRIVIA</a></li>
+          <li><a class="main-nav-link nav-cta" href="#more">MORE</a></li>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-hero" id="hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              The Karkonosze Mountains: wonderful place to explore
+            </h1>
+            <p class="hero-description">
+              The Karkonosze can be counted among the most beautiful mountain
+              ranges in Poland. What is more, they are full of magic and
+              legends. They may not match the size of the nearby Carpathian
+              Mountains, but they impress above all with their wonderful nature,
+              unspoiled corners, beautiful forests and amazing trails.
+            </p>
+            <div class="hero-quote">
+              <img
+                src="https://www.ahojprzygodo.com/wp-content/uploads/2023/01/210602135904-ahoj-przygodo-blog.jpg"
+                class="hero-quote-img"
+                alt="Ghost Karkonosz"
+              />
+              <p class="hero-quote-text">
+                "According to the beliefs of the former inhabitants settled at
+                the foot of the Krkonoše Mountains, while hiking one had to
+                watch out for the Mountain Spirit - the fearless Krkonos"
+              </p>
+            </div>
+            <div class="buttons">
+              <a href="#summer" class="btn btn--summer">Summer time</a>
+              <a href="#winter" class="btn btn--winter">Winter time</a>
+            </div>
+          </div>
+          <div class="hero-image-box">
+            <img src="img/hero.webp" class="hero-img" alt="Mountains views" />
+          </div>
+        </div>
+      </section>
+      <section class="section-legends" id="legends">
+        <div class="container legends-container">
+          <span class="subheading">Legends</span>
+          <div class="section-legends-introduction">
+            <h2 class="heading-secondary legends-heading">
+              Secrets of the Karkonosze Mountains
+            </h2>
+          </div>
+          <div class="ghost-box legends-box">
+            <figure class="legend-image">
+              <img
+                src="img/ghost-big.webp"
+                class="ghost-img legends-img"
+                alt="Ghost Karkonosz big"
+              />
+            </figure>
+
+            <div class="ghost-text-box legends-text-box">
+              <h3 class="ghost-heading heading-three">
+                Legend of Liczyrzepa - the Spirit of the Mountains
+              </h3>
+              <p class="section-description legends-description">
+                According to the beliefs of the old inhabitants settled at the
+                foot of the Karkonosze Mountains, when wandering one had to
+                watch out for the Spirit of the Mountains - the fearless
+                Karkonosze. Legend has it that one day he fell in love with the
+                extraordinarily beautiful Dobrognieva and kidnapped her from the
+                castle of the Duke of Swidnica. Attempts to rescue the princess
+                were of no use, as no one could match the strength and power of
+                the Spirit. He, wanting to provide sufficient comforts for his
+                chosen one, gathered turnips from a nearby field to turn them
+                into courtiers, ready to fulfill Dobrognieva's every whim.
+                Meanwhile, the clever princess plotted a ruse to escape from the
+                castle with the help of her beloved Mieszko. Wanting to distract
+                Karkonosze, she ordered him to count all the turnips. At that
+                time, she and Mieszko slipped away to Swidnica to marry him
+                there. Since this incident, the wandering Karkonosz is jokingly
+                called Liczyrzepa.
+              </p>
+            </div>
+          </div>
+          <div class="narnia-box legends-box">
+            <div class="narnia-text-box legends-text-box">
+              <h3 class="narnia-heading heading-three">
+                The Chronicles of Narnia
+              </h3>
+              <p class="section-description legends-description">
+                The Karkonosze Mountains delight with the views spreading from
+                the peaks. Numerous hiking trails allow you to reach picturesque
+                waterfalls and streams filled with magic. Few people know that
+                it was the Karkonosze Mountains, or more precisely the highest
+                waterfall in the Polish Sudetes - the Kamienczyk Waterfall -
+                that served as the setting for scenes from the film "The
+                Chronicles of Narnia." Vertically rising massive rock walls, the
+                sound of falling water and lush vegetation make us feel like we
+                are in a fairy tale kingdom here. Its name derives from another
+                Karkonosze legend. It says that it was created from the tears of
+                seven mermaids, mourning their sister Labudka. She was in love
+                with Kamienczyk Bronish, who, in search of precious ores for his
+                gravely ill mother, fell off a cliff. When the distraught
+                Rusalka found the body of her beloved, she slipped and fell near
+                Bronish. The sisters mourned for a long time for Labudka, and
+                from their tears one of the most beautiful places in the Giant
+                Mountains was created.
+              </p>
+            </div>
+            <figure class="legend-image">
+              <img
+                src="img/narnia.webp"
+                class="narnia-img legends-img"
+                alt="Narnia picture"
+              />
+            </figure>
+          </div>
+          <div class="alps-box legends-box">
+            <figure class="legend-image">
+              <img
+                src="img/alps.webp"
+                class="alps-img legends-img"
+                alt="Alps winter view"
+              />
+            </figure>
+            <div class="alps-text-box legends-text-box">
+              <h3 class="alps-heading heading-three">The Polish Alps</h3>
+              <p class="section-description legends-description">
+                Few people know that the richness of Karkonosze's mountainous
+                landscape, low temperatures, strong hurricane winds and violent
+                weather changes have caused it to be often referred to as the
+                Polish Alps. There are more than 150 picturesque rock
+                formations, rock debris, glacial circuses, mountain lakes and
+                countless streams and springs. The Polish Alps, while stunning
+                in their beauty, can be demanding. The alpine landscape can
+                certainly be found in the Śnieżne Kotły Nature Reserve, which is
+                an excellent vantage point. It's also worth taking the "guide's
+                revenge," that is, the trail over the Reglami leading to the
+                highest peak in the Sudetenland - Sněžka. Before the expedition,
+                it is worth taking care of appropriate footwear suited to the
+                Karkonosze trails. Shoes that prevent slipping on rocks and
+                cushion the foot on uneven ground are the basis of comfort and
+                safety. When looking for the right model for your expedition in
+                the Giant Mountains, you should pay attention to the Chameleon 7
+                line by Merrell, created for mountain hiking enthusiasts, for
+                whom foot protection is as important as comfort.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-time-summer" id="summer">
+        <h2 class="heading-secondary summer-heading heading-time">Summer</h2>
+        <div class="section-time-parts">
+          <div class="part1">
+            <img
+              src="img/summer-3.webp"
+              class="time-img"
+              alt="summer view of karkonosze"
+            />
+          </div>
+          <div class="part1">
+            <img
+              src="img/summer-2.webp"
+              class="time-img"
+              alt="summer view of karkonosze"
+            />
+          </div>
+          <div class="part1">
+            <img
+              src="img/summer-1.webp"
+              class="time-img"
+              alt="summer view of karkonosze"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-trivia" id="trivia">
+        <div class="container">
+          <span class="subheading">Trivia</span>
+          <div class="section-trivia-introduction">
+            <h2 class="heading-secondary">
+              Tadeusz Holdys High-Mountain Meteorological Observatory
+            </h2>
+            <p class="section-description">
+              It is a facility of the Institute of Meteorology and Water
+              Management, located on Sněžka - the highest peak in the Giant
+              Mountains and at the same time in the entire Sudetenland, at an
+              altitude of 1,602 meters above sea level.
+            </p>
+          </div>
+          <div class="trivia-box-all">
+            <div class="trivia-box">
+              <div class="trivia-box-text">
+                <ul class="list">
+                  <li class="list-item">
+                    <ion-icon
+                      class="trivia-icon"
+                      name="location-outline"
+                    ></ion-icon>
+                    Karpacz
+                  </li>
+                  <li class="list-item">
+                    <ion-icon
+                      class="trivia-icon"
+                      name="people-outline"
+                    ></ion-icon>
+                    W. Wawrzyniak, W. Lipiński
+                  </li>
+                  <li class="list-item">
+                    <ion-icon class="trivia-icon" name="key-outline"></ion-icon>
+                    National Research Institute
+                  </li>
+                  <li class="list-item">
+                    <ion-icon
+                      class="trivia-icon"
+                      name="build-outline"
+                    ></ion-icon>
+                    1966 - 1974
+                  </li>
+                  <li class="list-item">
+                    <ion-icon
+                      class="trivia-icon"
+                      name="settings-outline"
+                    ></ion-icon>
+                    Observatory
+                  </li>
+                </ul>
+
+                <a
+                  href="https://en.wikipedia.org/wiki/Sn%C4%9B%C5%BEka"
+                  target="_blank"
+                  class="trivia-link"
+                  >More about Sniezka &rarr;</a
+                >
+              </div>
+              <div class="trivia-box-img">
+                <img
+                  src="img/trivia.webp"
+                  class="trivia-img"
+                  alt="Photo of Observatory"
+                />
+              </div>
+            </div>
+            <p
+              class="section-description section-trivia-introduction trivia-outro"
+            >
+              The building on Sniezka is one of the symbols and most original
+              architectural designs in Poland. Where did such a crazy idea come
+              from? In the 1950s and 1960s, Lipinski was known for his designs
+              of futuristic buildings with characteristic curves and arches. The
+              Sniezka Observatory, because of its uninterrupted sequence of
+              measurements since 1880, is an ideal place to analyze climate
+              change. The data is unique because the summit of Snow Mountain is
+              devoid of local influences related to human activity.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-time-winter" id="winter">
+        <h2 class="heading-secondary winter-heading heading-time">Winter</h2>
+        <div class="section-time-parts">
+          <div class="part1">
+            <img
+              src="img/winter-3.webp"
+              class="time-img"
+              alt="winter view of karkonosze"
+            />
+          </div>
+          <div class="part1">
+            <img
+              src="img/winter-2.webp"
+              class="time-img"
+              alt="winter view of karkonosze"
+            />
+          </div>
+          <div class="part1">
+            <img
+              src="img/winter-1.webp"
+              class="time-img"
+              alt="winter view of karkonosze"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section-more" id="more">
+        <div class="container">
+          <span class="subheading">More</span>
+          <div class="section-more-content">
+            <div class="more-box">
+              <div class="more-text-box">
+                <h2 class="heading-secondary">Get your unique hiking plan!</h2>
+                <p class="more-text">
+                  Richly described tours to find the best route for a weekend
+                  trip to the mountains. The tours take you through the most
+                  interesting trails, the most beautiful views and the most
+                  beautiful sights.
+                </p>
+
+                <form class="more-form">
+                  <div>
+                    <label for="full-name">Full Name</label
+                    ><input
+                      id="full-name"
+                      placeholder="Karol Wojtyla"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label for="email">Email adress</label>
+                    <input id="email" placeholder="nick@site.com" required />
+                  </div>
+
+                  <div>
+                    <label for="select-where"
+                      >Where did you hear about the offer?</label
+                    ><select id="select-where" required>
+                      <option value="">Please choose one:</option>
+                      <option value="friends">Friends</option>
+                      <option value="national park website">
+                        National Park website
+                      </option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+
+                  <button class="btn btn--form">Send your request</button>
+                </form>
+              </div>
+              <div
+                class="more-img-box"
+                role="img"
+                aria-label="request photo"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-box">
+        <div class="logo-col">
+          <a href="#">
+            <img src="img/logo.png" class="footer-logo" alt="page logo" />
+          </a>
+
+          <ul class="footer-links">
+            <li>
+              <a
+                class="footer-link"
+                href="https://github.com/RobFrontend"
+                target="_blank"
+              >
+                <ion-icon class="footer-icon" name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a
+                class="footer-link"
+                href="https://www.instagram.com/rob_learns_frontend/"
+                target="_blank"
+              >
+                <ion-icon class="footer-icon" name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="adress-col">
+          <p class="footer-heading">Contact me</p>
+          <address class="contacts">
+            <a class="footer-link" href="mailto:robert.grabowski97@gmail.com"
+              >robert.grabowski97@gmail.com</a
+            >
+            <a
+              class="footer-link"
+              href="https://github.com/RobFrontend"
+              target="_blank"
+              >Github profile</a
+            >
+          </address>
+        </div>
+        <div class="copyright">
+          <p class="copyright">
+            Copyright &copy; <span class="year">2027</span> by RobFrontend. All
+            rights resrved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

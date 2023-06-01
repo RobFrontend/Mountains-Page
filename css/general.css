@@ -1,0 +1,232 @@
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights:
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+
+- Letter spacing
+-0.5px
+-0.75px
+
+--- 02 Colors
+
+Primary: #964b00
+
+#964b00	#874400	#783c00	#693500	#5a2d00	#4b2600	#3c1e00	#2d1600	#1e0f00	#0f0700	
+
+#964b00	#a15d1a	#ab6f33	#b6814d	#c09366	#cba580	#d5b799	#e0c9b3	#eadbcc	#f5ede6	
+
+
+Primary: #228B22 
+Tints: 
+#228B22
+#4EA24E
+#71B571
+#8DC48D
+#A4D0A4
+#B6D9B6
+#C5E1C5
+#D1E7D1
+#DAECDA
+#E1F0E1
+Shades: 
+#228B22
+#1B6F1B
+#165916
+#124712
+#0E390E
+#0B2E0B
+#092509
+#071E07
+#061806
+#051305
+
+Primary:#368BC1
+
+#368bc1	#317dae	#2b6f9a	#266187	#205374	#1b4661	#16384d	#102a3a	#0b1c27	#050e13	
+
+#368bc1	#4a97c7	#5ea2cd	#72aed4	#86b9da	#9bc5e0	#afd1e6	#c3dcec	#d7e8f3	#ebf3f9
+Accenst:
+Greys
+
+--- 05 SHADOWS
+#3333332d
+
+--- 06 BORDER-RADIUS
+
+Default: 2px
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+  overflow-x: hidden;
+}
+
+header {
+  background: linear-gradient(to top right, #e1f0e1, #a4d0a4);
+  background: linear-gradient(to top right, #f5ede6, #c09366);
+}
+
+/* ******************** */
+/* GENERAL REUSABLE COMPONENTS */
+
+.container {
+  max-width: 130rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.heading-three {
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+  line-height: 1.2;
+}
+
+.subheading {
+  /* color: #1b6f1b; */
+  color: #874400;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 3.2rem;
+}
+
+.hero-description,
+.section-description {
+  font-size: 1.8rem;
+  font-weight: 400;
+
+  color: #444;
+}
+
+.hero-description {
+  line-height: 1.05;
+  margin-bottom: 6.4rem;
+}
+
+.section-description {
+  line-height: 1.2;
+}
+
+.legends-description {
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.section-time-parts {
+  margin: 0 auto;
+  max-width: 160rem;
+  display: flex;
+  gap: 4.8rem;
+  padding: 3.2rem;
+  padding-bottom: 6.4rem;
+}
+
+.heading-time {
+  text-align: center;
+  margin-bottom: 3.2rem;
+  opacity: 40%;
+  padding: 3.2rem;
+}
+
+.time-img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);
+  transition: all 0.5s;
+}
+
+.time-img:hover {
+  transform: scale(1.1);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  color: #444;
+}
+
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #964b00; */
+  /* outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(150, 75, 0, 0.507);
+}
