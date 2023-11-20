@@ -1,0 +1,193 @@
+/* BELOW 1488px */
+@media (max-width: 93em) {
+  .header {
+    padding: 0 1.6rem;
+  }
+  .hero {
+    max-width: 125rem;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .more-form label {
+    font-size: 1.4rem;
+  }
+}
+/* BELOW 1216px */
+@media (max-width: 76em) {
+  html {
+    font-size: 57%;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .heading-primary {
+    margin-bottom: 2.4rem;
+  }
+
+  .hero-description {
+    margin-bottom: 2.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+  .section-trivia,
+  .section-legends {
+    margin-bottom: 4.8rem;
+  }
+
+  .legends-box {
+    gap: 3.2rem;
+  }
+  /* .legend-image {
+    height: 95%;
+    width: 95%;
+  } */
+  .alps-box {
+    margin-bottom: 3.2rem;
+  }
+
+  .section-trivia-introduction,
+  .trivia-box {
+    padding-bottom: 1.2rem;
+  }
+  .trivia-box-img {
+    height: 50%;
+    width: 50%;
+  }
+  .trivia-outro {
+    padding-bottom: 3.2rem;
+    padding-top: 1.2rem;
+  }
+}
+/* BELOW 944px */
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .trivia-box-img {
+    align-self: center;
+  }
+  /* mobile */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999999;
+  }
+  .main-nav {
+    background-color: rgba(245, 237, 230, 0.685);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease-in-out;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .main-nav-list {
+    flex-direction: column;
+    gap: 8rem;
+    align-items: center;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+  .legends-box {
+    grid-template-columns: 1fr;
+  }
+  .legend-image {
+    grid-row: 1 / -1;
+    justify-self: center;
+    width: 50%;
+    height: 100%;
+  }
+  .more-form {
+    grid-template-columns: 1fr;
+  }
+}
+/* BELOW 720px */
+@media (max-width: 45em) {
+  .section-hero {
+    margin-bottom: 4.8rem;
+    padding-bottom: 4.8rem;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+  .hero-text-box {
+    text-align: center;
+  }
+  .hero-quote {
+    text-align: left;
+  }
+  .buttons {
+    justify-content: center;
+  }
+  .hero-image-box {
+    width: 80%;
+    height: 80%;
+    justify-self: center;
+  }
+  .hero-image-box img {
+    width: 100%;
+    height: 100%;
+  }
+  .section-legends-introduction {
+    margin-bottom: 4.8rem;
+  }
+  .heading-three {
+    margin-bottom: 2.4rem;
+  }
+  .legends-box {
+    gap: 2.4rem;
+    padding: 0;
+  }
+  .legend-image {
+    align-self: center;
+    justify-self: center;
+  }
+  .trivia-box {
+    flex-direction: column;
+    gap: 0;
+  }
+  .more-box {
+    grid-template-columns: 1fr;
+  }
+  .more-img-box {
+    height: 40rem;
+    grid-row: 1;
+  }
+}
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+
+/* - Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+ */
